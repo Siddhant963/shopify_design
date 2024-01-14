@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .main{ 
+            background: rgb(121, 149, 202);
+            width: 100%;
+            height: 80rem;
+            text-align: center;
+
+        }
+        .head{ 
+            display: flex;
+            width: 60%;
+            margin: auto;
+        }
+        .first{  background:  white;
+            width: 50%;
+            height: 2.5rem;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+             display: flex;
+             border-radius: 3px;
+        }
+        .sec{  background:  white;
+            width: 50%;
+            height: 2.5rem;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            border-radius: 3px;
+        }
+        .first > .text , .sec >.text{ 
+            margin: auto;
+            padding: -1px;
+        }
+     .text >h5{
+        color: rgb(9, 170, 9); 
+    margin: auto;
+    font-size: 19px;
+        padding : 2px;
+     } 
+     .text >p{ 
+        color: black;
+        font-size: 17px;
+        margin: auto;
+        /* padding: -3px; */
+     }
+       
+     .first > img , .sec > img{
+        width: 20%;
+        height: 2.8rem;
+        margin: auto;
+        border-radius: 4px;
+      }
+
+     .element{ 
+        background-color: white;
+        width: 60%;
+        margin: auto;
+        height: 40rem;
+        border-radius: 5px;
+     }
+     .element > h1,h5{ 
+     padding: 3px;
+        color: green;
+     }
+     .time{ 
+        display: flex;
+        margin: auto;
+        width: 10%;
+        padding: 2px;
+     }
+     .b1 >div , .b2  >div{ 
+        background-color: green;
+        height: 2rem;
+        margin-left:  1px;
+        padding: 3px;
+        width:   70%;
+        border-radius: 3px;
+        
+     } .b1 > div >p , .b2 > div > p{ 
+        color: white;
+        margin: auto;
+        padding: 7px;
+        font-size: 23px;
+     }
+     .b1 >p , .b2 >p { 
+        color: black;
+        margin: auto ;
+        padding: 1px;
+ font-size: 13px;
+     }
+
+     .item{ 
+        display: flex;
+        width: 95%;
+        height: 50rem;
+        margin: auto;
+        padding: 2px;
+     }
+     .item1, .item2 , .item3{
+        background-color: white;
+        display: grid;
+        width: 30%;
+        height: 20rem;
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 3px;
+        
+     } .item1 > h4 , .item2 >h4 , .item3 > h4{ 
+        color: green;
+     }
+     .item1 > h5 , .item2 >h5 , .item3 > h5{ 
+        color: black;
+        border: 1px solid black;
+        width: 90%;
+        margin: auto;
+        border-radius: 2px;
+        padding: -7px;
+
+     } .item1 > button , .item2 >button , .item3 > button{ 
+        background-color: green;
+        color: white;
+        width: 90%;
+        border-radius: 2px;
+        margin: auto;
+        height: 2.3rem;
+     }
+      .item1 > img , .item2 > img , .item3 > img{ 
+        width: 13rem;
+        height: 10rem;
+        margin: auto;
+        border-radius: 3px;
+        padding: 4px;
+      }
+
+
+    </style>
+    <div class="main">
+        <div class="head">
+            <div class="first">
+                    <img src="media/logo2.jpeg" alt="">
+              
+                <div class="text">
+                <h5>PRODUCTS SOURCE </h5>
+                <P>Shopify</P>
+                </div>
+            </div>
+            <div class="sec">
+            
+                    <img src="media/logo2.jpeg" alt="">
+               
+                <div class="text">
+                <H5>PRODUCTS FILTER</H5>
+                <P>Teg is "best sellers"</P>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------------------------------------------------- -->
+        <div class="element">
+            <h5>WELLCOME OFFER</h5>
+            <h1> 20% off our best sellers</h1>
+               <p>Don't miss this limited-time offer!</p>
+           <div class="time">
+            <div class="b1">
+                <div> <p>14</p></div>
+               <b> <P>Minutes</P> </b>
+               
+               </div>
+               <div class="b2">
+               <div> <p>43</p></div>
+               <b> <p>secends</p> </b>
+    
+               </div>
+           </div>
+
+           <div class="item">
+            <div class="item1">
+                <img src="media/item1.jpeg" alt="">
+                <h4> Oak Bedside Table </h4>
+                <h5> Oak Bedside table</h5>
+                <button> Add To Cart</button>
+            </div>
+            <div class="item2">
+                <img src="media/item2.jpeg"  alt="">
+                <h4> Rustic Drawers </h4>
+                <h5> Rustic Drawers</h5>
+                <button> Add To Cart</button>
+                
+            </div>
+            <div class="item3">
+                <img src="media/item3.jpeg" alt="">
+                <h4> Swedish Armchair </h4>
+                <h5> Swedish Armchair</h5>
+                <button> Add To Cart</button>
+            </div>
+
+           </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
